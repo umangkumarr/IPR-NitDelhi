@@ -4,6 +4,10 @@
 /* .burger-vahibav{
     color: white !important;
 } */
+.nav-toggler-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
 
 .nav-link:hover,.navbar-brand:hover,.dropdown-item:hover{
     color: white ;
@@ -15,6 +19,11 @@
 }
 .navbar-toggler-icon>i:hover{
     color: black; 
+    border: none;
+}
+
+.navbar-toggler-icon:active,:focus{
+    border: none;
 }
 .nav-link:hover,.navbar-brand:hover,.dropdown-item:hover{
     color: white ;
@@ -28,4 +37,11 @@
 
 .nav-link {
     padding: 10px;
+}
+
+
+/* nava */
+.navbar-user-defined
+{
+    background-color: #2091ba;
 }
