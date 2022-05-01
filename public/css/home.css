@@ -45,3 +45,5 @@
 {
     background-color: #2091ba;
 }
+
+.dropdown:hover .dropdown-menu {display: block;}
