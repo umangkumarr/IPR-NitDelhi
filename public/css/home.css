@@ -14,3 +14,12 @@
     color: white ;
     background-color: red;
 }
+
+.navbar {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.nav-link {
+    padding: 10px;
+}
