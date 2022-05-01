@@ -29,3 +29,5 @@
 .nav-link {
     padding: 10px;
 }
+
+.dropdown:hover .dropdown-menu {display: block;}
