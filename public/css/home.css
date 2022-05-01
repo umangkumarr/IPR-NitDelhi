@@ -12,7 +12,7 @@
 
 .nav-link:hover,.navbar-brand:hover,.dropdown-item:hover{
     color: white ;
-    background-color: red;
+    background-color:#135b76 ;
 }
 
 .navbar {
