@@ -12,7 +12,7 @@ app.get("/home", (req, res) => {
 })
 
 app.get("/faq", (req, res) => {
-    res.render("faq");
+    res.render("faq"); 
 })
 
 app.get("/how-to-apply-for-a-patent-at-nit-delhi", (req, res) => {

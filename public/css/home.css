@@ -24,8 +24,6 @@
 }
 
 .navbar {
-    margin: auto;
-    max-width: 90%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
@@ -37,7 +35,7 @@
 
 .right-left-margin {
     margin: auto;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 
