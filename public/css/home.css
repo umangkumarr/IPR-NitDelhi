@@ -12,6 +12,11 @@
 }
 .navbar-toggler-icon>i:hover{
     color: black; 
+    border: none;
+}
+
+.navbar-toggler-icon:active,:focus{
+    border: none;
 }
 .nav-link:hover,.navbar-brand:hover,.dropdown-item:hover{
     color: white ;
@@ -35,4 +40,15 @@
     max-width: 90%;
 }
 
+
+/* nava */
+.navbar-user-defined
+{
+    background-color: #2091ba;
+}
+
 .dropdown:hover .dropdown-menu {display: block;}
+
+.nav-item{
+    margin-left: 12px;
+}
