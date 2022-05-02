@@ -47,3 +47,7 @@
 }
 
 .dropdown:hover .dropdown-menu {display: block;}
+
+.nav-item{
+    margin-left: 12px;
+}
