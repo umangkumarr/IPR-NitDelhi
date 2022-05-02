@@ -15,4 +15,8 @@ app.get("/faq", (req, res) => {
     res.render("faq");
 })
 
-app.listen(8000);
+app.get("/how-to-apply-for-a-patent-at-nit-delhi", (req, res) => {
+    res.render("howToFileIpr");
+})
+
+app.listen(8000); 
