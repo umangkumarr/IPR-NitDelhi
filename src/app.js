@@ -11,4 +11,8 @@ app.get("/home", (req, res) => {
     res.render("home");
 })
 
+app.get("/faq", (req, res) => {
+    res.render("faq");
+})
+
 app.listen(8000);
