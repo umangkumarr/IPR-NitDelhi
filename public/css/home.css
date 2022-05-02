@@ -1,9 +1,6 @@
 .nav-link,.navbar-brand,.dropdown-item{
     color: white !important;
 }
-/* .burger-vahibav{
-    color: white !important;
-} */
 
 .nav-link:hover,.navbar-brand:hover,.dropdown-item:hover{
     color: white ;
@@ -22,12 +19,20 @@
 }
 
 .navbar {
+    margin: auto;
+    max-width: 90%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
 
 .nav-link {
     padding: 10px;
+    padding-left: 4px;
+}
+
+.right-left-margin {
+    margin: auto;
+    max-width: 90%;
 }
 
 .dropdown:hover .dropdown-menu {display: block;}
