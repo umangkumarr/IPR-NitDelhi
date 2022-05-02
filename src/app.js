@@ -11,6 +11,9 @@ app.get("/home", (req, res) => {
     res.render("home");
 })
 
+app.get("/contacts", (req, res) => {
+    res.render("contacts"); 
+})
 app.get("/faq", (req, res) => {
     res.render("faq"); 
 })
