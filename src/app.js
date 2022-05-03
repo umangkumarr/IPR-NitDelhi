@@ -23,4 +23,4 @@ app.get("/how-to-apply-for-a-patent-at-nit-delhi", (req, res) => {
     res.render("howToFileIpr");
 })
 
-app.listen(8000); 
+app.listen(PORT); 
