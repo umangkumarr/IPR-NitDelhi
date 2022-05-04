@@ -20,6 +20,10 @@ app.get("/faq", (req, res) => {
     res.render("faq"); 
 })
 
+app.get("/Activities", (req, res) => {
+    res.render("Activites"); 
+})
+
 app.get("/how-to-apply-for-a-patent-at-nit-delhi", (req, res) => {
     res.render("howToFileIpr");
 })
